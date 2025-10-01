@@ -467,7 +467,7 @@ function getStarterPackImage(
   starterPack: AppBskyGraphDefs.StarterPackViewBasic,
 ) {
   const rkey = getRkey({uri: starterPack.uri})
-  return `https://ogcard.progressia.one/start/${starterPack.creator.did}/${rkey}`
+  return `https://card.progressia.one/start/${starterPack.creator.did}/${rkey}`
 }
 
 function getStarterPackHref(

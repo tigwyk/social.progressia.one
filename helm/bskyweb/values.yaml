@@ -123,6 +123,7 @@ bskyweb:
     - "/usr/bin/bskyweb"
     - "serve"
     - "--appview-host=https://public.api.bsky.app"
+    - "--ogcard-host=https://card.progressia.one"
   
   # Environment variables
   env: []

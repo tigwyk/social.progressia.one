@@ -33,14 +33,14 @@ ingress:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
   hosts:
-    - host: ogcard.progressia.one
+    - host: card.progressia.one
       paths:
         - path: /
           pathType: Prefix
   tls:
-    - secretName: ogcard-progressia-one-tls
+    - secretName: card-progressia-one-tls
       hosts:
-        - ogcard.progressia.one
+        - card.progressia.one
 
 resources:
   limits:

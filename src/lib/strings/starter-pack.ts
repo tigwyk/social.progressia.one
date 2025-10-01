@@ -85,10 +85,10 @@ export function getStarterPackOgCard(
   rkey?: string,
 ) {
   if (typeof didOrStarterPack === 'string') {
-    return `https://ogcard.progressia.one/start/${didOrStarterPack}/${rkey}`
+    return `https://card.progressia.one/start/${didOrStarterPack}/${rkey}`
   } else {
     const starterPackRkey = new AtUri(didOrStarterPack.uri).rkey
-    return `https://ogcard.progressia.one/start/${didOrStarterPack.creator.did}/${starterPackRkey}`
+    return `https://card.progressia.one/start/${didOrStarterPack.creator.did}/${starterPackRkey}`
   }
 }
 
