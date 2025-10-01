@@ -9829,7 +9829,7 @@ msgid "Welcome back!"
 msgstr ""
 
 #: src/screens/Signup/index.tsx:123
-msgid "Welcome to the cookout!"
+msgid "Welcome to ProgressiaOne!"
 msgstr ""
 
 #: src/components/NewskieDialog.tsx:103
