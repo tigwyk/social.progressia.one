@@ -1,7 +1,7 @@
 /* eslint-disable bsky-internal/avoid-unwrapped-text */
 import {type AppBskyGraphDefs, AppBskyGraphStarterpack} from '@atproto/api'
 
-import {Cluster} from './Cluster.js'
+import {LogoP1} from './LogoP1.js'
 import {Img} from './Img.js'
 
 export const STARTERPACK_HEIGHT = 630
@@ -143,7 +143,7 @@ export function StarterPack(props: {
             justifyContent: 'center',
             padding: '30px 30px 10px',
           }}>
-          on <Cluster width="65" style={{margin: '-7px 10px 0'}} />{' '}
+          on <LogoP1 width="65" style={{margin: '-7px 10px 0'}} />{' '}
           ProgressiaOne
         </div>
       </div>
